@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Гід по Харкову — цікаві місця та поради</title>
+  <meta name="description" content="Відкрийте для себе найкращі місця Харкова: парки, кафе, пам’ятки та поради для туристів.">
+  <meta name="keywords" content="Харків, гід, подорожі, місця, Україна">
+  <meta property="og:title" content="Гід по Харкову">
+  <meta property="og:description" content="Найкращі місця Харкова для відвідування">
+  <meta property="og:image" content="images/kharkiv.jpg">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXX');
+  </script>
+</head>
+
+<body>
+
+<header>
+  <h1>Гід по Харкову</h1>
+  <p>Відкрий місто по-новому</p>
+</header>
+
+<nav>
+  <button onclick="filterPlaces('all')">Усі</button>
+  <button onclick="filterPlaces('park')">Парки</button>
+  <button onclick="filterPlaces('food')">Їжа</button>
+</nav>
+
+<main>
+  <section class="places">
+
+    <article class="card park">
+      <img src="https://tamtour.com.ua/ru/park-rozvag-v-harkov" alt="Парк Горького" loading="lazy">
+      <h2>Парк Горького</h2>
+      <p>Популярне місце для відпочинку з атракціонами.</p>
+    </article>
+
+    <article class="card food">
+      <img src="https://ua.igotoworld.com/ua/poi_object/436038_pccerija-bufet-harkov.htm" alt="Кафе у Харкові" loading="lazy">
+      <h2>Локальне кафе</h2>
+      <p>Смачні страви та затишна атмосфера.</p>
+    </article>
+
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Smart Travel Guide</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
